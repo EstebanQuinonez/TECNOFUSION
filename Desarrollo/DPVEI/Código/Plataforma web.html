@@ -1,15 +1,137 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Ventas de Entradas</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <h1>Bienvenido al Sistema de Ventas de Entradas</h1>
+    
+        <div class="menu container">
+            
+            <img class="logo-1" src = "Images/logo.svg" alt="">
+            <input type="checkbox" id=menu"/>
+            <label for="menu">   
+                <img src="Images/menu.png" class ="menu-icono" atl="">
+            </label>
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Productos</a></li>
+                    </ul>
+                </div>
+
+                <img class="logo-2" src="Images/logo.svg" alt="">
+
+                <div class = "menu-2">
+                    <ul>
+                        <li><a href="#">Horario</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="#">
+                            <div class="social">
+                                <img src="Images/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="Images/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="Images/s3.svg" alt="">
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="slaider">
+                            <div class="slider-text">
+                                <h1>Hamburguesa</h1>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing 
+                                    elit. Sit error itaque qui in similique voluptatum sint 
+                                    aperiam minus at porro dolores minima, facere commodi 
+                                    aspernatur voluptates sed odio dolore nesciunt.
+                                </p>
+                                <div class="botones">
+                                    <a href="#"class="btn-1">Comprar</a>
+                                    <a href="#"class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="Images/slider1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slaider">
+                            <div class="slider-text">
+                                <h1>Torta</h1>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing 
+                                    elit. Sit error itaque qui in similique voluptatum sint 
+                                    aperiam minus at porro dolores minima, facere commodi 
+                                    aspernatur voluptates sed odio dolore nesciunt.
+                                </p>
+                                <div class="botones">
+                                    <a href="#"class="btn-1">Comprar</a>
+                                    <a href="#"class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="Images/slider2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slaider">
+                            <div class="slider-text">
+                                <h1>Hamburguesa</h1>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing 
+                                    elit. Sit error itaque qui in similique voluptatum sint 
+                                    aperiam minus at porro dolores minima, facere commodi 
+                                    aspernatur voluptates sed odio dolore nesciunt.
+                                </p>
+                                <div class="botones">
+                                    <a href="#"class="btn-1">Comprar</a>
+                                    <a href="#"class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="Images/slider3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper- pagination"></div>
+            </div>
+        </div>
+
     </header>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
